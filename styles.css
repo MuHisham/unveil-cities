@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap');
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.image img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 3px solid #3882F6;
+}
+
+header {
+    height: 70px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.links a {
+    margin-right: 10px;
+    color: #fff;
+}
+
+.section.one {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+}
+
+.hero {
+    padding: 40px 0px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    color: #fff;
+}
+
+
+.mainImage {
+    width: 50%;
+}
+
+.mainImage img {
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    width: 40%;
+}
+
+.content h2 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: #F9FAF8;
+}
+
+.content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #E5E7EB;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    background-color: #3882F6;
+    border: none;
+    color: #F9FAF8;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.section.two {
+    padding: 40px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.information {
+    width: 60%;
+}
+
+.section.two h3 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.imageCollection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.imageCollection .image{
+    flex-basis: 25%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.image p {
+    width: 200px;
+    margin: 0px auto;
+    color: #1F2937;
+}
+
+.section.three {
+    background-color: #E5E7EB;
+    padding: 80px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial {
+    width: 60%;
+}
+
+#quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 10px;
+}
+
+#author {
+    text-align: end;
+    font-weight: 700;
+    color: #1F2937;
+}
+
+.section.four {
+    padding: 80px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.blue-box {
+    background-color: #3882F6;
+    padding: 40px 20px;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+    border-radius: 5px;
+}
+
+.blue-box button {
+    border: 3px solid #F9FAF8;
+    height: auto;
+    width: 100%;
+    padding: 10px;
+}
+
+.sideContent {
+    width: 70%;
+}
+.signUpButton {
+    width: 15%;
+}
+
+footer {
+    height: 80px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
