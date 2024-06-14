@@ -48,10 +48,10 @@ header {
     display: flex;
     justify-content: center;
     background-color: #1F2937;
+    padding: 40px 0px 80px;
 }
 
 .hero {
-    padding: 40px 0px 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -99,7 +99,7 @@ button {
 }
 
 .section.two {
-    padding: 40px 0px;
+    padding: 40px 0px 80px;
     display: flex;
     justify-content: center;
 }
@@ -136,7 +136,7 @@ button {
 
 .section.three {
     background-color: #E5E7EB;
-    padding: 80px 0px;
+    padding: 90px 0px;
     display: flex;
     justify-content: center;
 }
